@@ -10,8 +10,8 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
-      <h1 className="w-full text-3xl font-bold text-[#00df9a]">digitol.</h1>
-      <ul className="hidden md:flex">
+      <h1 className="w-full text-5xl font-bold text-[#249672]">digitol.</h1>
+      <ul className="text-[#216650] font-light text-md underline hidden md:flex">
         <li className="p-4">Home</li>
         <li className="p-4">Company</li>
         <li className="p-4">Resources</li>
