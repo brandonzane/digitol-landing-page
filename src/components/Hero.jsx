@@ -23,7 +23,13 @@ const Hero = () => {
             loop
           />
         </div>
-        <button className="bg-[#31b188] w-[200px] rounded-md font-light my-6 mx-auto py-3 text-white">
+        <button
+          className="bg-[#31b188] w-[200px] rounded-md font-light my-6 mx-auto py-3 text-white"
+          onClick={() =>
+            (window.location.href =
+              "https://noteforms.com/forms/website-form-ywokcf")
+          }
+        >
           Get Started
         </button>
       </div>
